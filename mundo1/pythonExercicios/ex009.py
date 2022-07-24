@@ -1,0 +1,23 @@
+print("========== EXERCICIO 009 ==========")
+tab = int(input('Digite o numero: '))
+n1 = tab * 1
+n2 = tab * 2
+n3 = tab * 3
+n4 = tab * 4
+n5 = tab * 5
+n6 = tab * 6
+n7 = tab * 7
+n8 = tab * 8
+n9 = tab * 9
+n10 = tab * 10
+print('* Tabuada = {} *'.format(tab))
+print('{} x  1 = {:2}'.format(tab, n1))
+print('{} x  2 = {:2}'.format(tab, n2))
+print('{} x  3 = {:2}'.format(tab, n3))
+print('{} x  4 = {:2}'.format(tab, n4))
+print('{} x  5 = {:2}'.format(tab, n5))
+print('{} x  6 = {:2}'.format(tab, n6))
+print('{} x  7 = {:2}'.format(tab, n7))
+print('{} x  8 = {:2}'.format(tab, n8))
+print('{} x  9 = {:2}'.format(tab, n9))
+print('{} x 10 = {:2}'.format(tab, n10))

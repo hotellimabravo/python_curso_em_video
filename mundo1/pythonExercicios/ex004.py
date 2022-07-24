@@ -1,0 +1,8 @@
+print('**************** DIGITE ALGO ABAIXO **************')
+dig = input('Digite:')
+print('Tipo de dados: {}'.format(type(dig)))
+print('Quantidade de caracteres: {}'.format(len(dig)))
+print('O que você digitou é alfabético? {}'.format(dig.isalpha()))
+print('O que você digitou é alfanumérico? {}'.format(dig.isalnum()))
+print('O que você digitou é numero? {}'.format(dig.isnumeric()))
+print('O que você digitou é apenas espaço? {}'.format(dig.isspace()))

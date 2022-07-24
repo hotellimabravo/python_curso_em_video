@@ -1,0 +1,10 @@
+print("========== EXERCICIO 012 ==========")
+price = float(input('Digite o preço = '))
+vDisc = float(input('Digite o valor do desconto = '))
+cDisc = vDisc / 100
+print('Valor do Produto = R$ {}'.format(price))
+print('Desconto = {}%'.format(vDisc))
+qDisc = (price * cDisc)
+pDisc = price - (price * cDisc)
+print('Valor do Desconto = R$ {:.2f}'.format(qDisc))
+print('O valor com {}% de desconto é = R$ {:.2f}'.format(vDisc, pDisc))

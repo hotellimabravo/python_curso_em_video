@@ -1,0 +1,5 @@
+print('============== DADOS PESSOAIS ==============')
+dia=input('informe o seu dia de nascimento:')
+mes=input('informe o seu mês de nascimento:')
+ano=input('informe o ano do seu nascimento AAAA:')
+print('Esta é a sua data de nascimento:',dia,'/',mes,'/',ano, 'Correto?')
